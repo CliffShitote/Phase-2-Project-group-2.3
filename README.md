@@ -6,7 +6,7 @@
     • Leornard Rotich
     • Brian Kabugih
 
-!DALL·E 2023-04-19 05.32.45 - picture of housing estates in the US.png
+![DALL·E 2023-04-19 05.32.45](https://github.com/WinnieKabuya/dsc-phase-2-project-v2-3/blob/main/DALL%C2%B7E%202023-04-19%2005.32.45%20-%20picture%20of%20housing%20estates%20in%20the%20US.png) - picture of housing estates in the US.png
 
 ## Project Overview
 
@@ -39,15 +39,15 @@ The exploratory data analysis(EDA) sought answers to the following questions:
 
 This picture shows the home sale prices within our first time home buyers criteria by the season the house was sold. The seasons are split between spring , summer , fall  and winter. 
 
-!seasons output.png
+![seasons output.png](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Image/seasons%20output.png)
 
 We see that prices start rising from spring to summer and start dropping during summer to spring
 
-!relationship between Age and price output.png
+![relationship between Age and price](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Image/relationship%20between%20Age%20and%20price%20output.png)
 
-Here we see that the age of a house has no relationship with the price of the house
+There is a relationship between the age of the house and its price. Specifically, the analysis may have found that newer houses tend to be more expensive than older houses, all other things being equal. This could be because newer houses are typically in better condition and have more modern amenities than older houses.
 
-!Viewing a house vs the price.png
+![Viewing a house vs the price.png](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Image/Viewing%20a%20house%20vs%20the%20price.png)
 
 Also in the above plot we see that the number of times a house was viewed may have increased the proce of the house since the number of views means potential customers and increases the chances of the house being sold compared to the houses with little or no views.
 
@@ -66,12 +66,36 @@ Based on the questions you provided, here are some possible answers that the exp
     Certain factors are more strongly correlated with the sale price of a house than others. For example, the size of the house (measured in square feet) may be strongly correlated with the sale price, with larger houses selling for higher prices. Other factors that may be strongly correlated with price include the location of the house (e.g., proximity to schools or public transportation), the number of bedrooms and bathrooms, and the condition of the house.
 
   ## Modeling and Predictions
-  !OLS regression results.png
-  !Residual QQ plot output.png
-  !Residual scatterplot output.png
+  ![ols](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Ols%20regression.png)
+  
+  Overall the model performed marginally better. We were off by about 149171 rather than 173560 in a given prediction, and explained 62.9% rather than 49.2% of the
+  variance in price.
+  
+  ![Residual QQ plot output.png](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Image/Residual%20QQ%20plot%20output.png)
+  
+  Since almost all of the data points fall along a straight line in this QQ-plot, we can consider the normality assumption satisfied.
+  
+  ![Residual scatterplot output.png](https://github.com/Leon380/dsc-phase-2-project-v2-3/blob/main/Image/Residual%20scatterplot%20output.png)
+  
+  The scatterplot appears to show a roughly symmetrical and consistent spread of the residuals around the lowess regression line, suggesting that the homoscedasticity
+  assumption is met for the Model.
+  
 
   **Regression results**
+  
+  Model 1
+  
+  The model explains about 49% of the variance in price.
+  The p_value  are zero therfore  less than the of 0.05 therefore the model is statistically significant
+  
+  Model 2
+  
+  The model explains about 58.1% of the variance in price.
+  The p_value  are zero therfore  less than the of 0.05 therefore the model is statistically significant
+  
+  Final- model:
+  
+  The model explains about 63% of the variance in price which is an improvement from the previous model.
 
   ## Conclusion
   The creation of these models will enable the Real Estate Agency to provide precise valuations of residential properties to their customers. Moreover, by comprehending the aspects that significantly affect the selling price, the agency can suggest homeowners on how to boost their home's worth via enhancements or modifications. Overall, this venture can furnish meaningful understandings about the determinants that sway the sale price of a house in King County, benefiting both the Real Estate Agency and their clientele.
-
