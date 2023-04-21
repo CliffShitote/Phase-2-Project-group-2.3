@@ -10,7 +10,9 @@
 
 ## Project Overview
 
-This project aims to use data science techniques to analyze house sales in North Western County
+This project aims to use data science techniques to analyze house sales in North Western County.
+
+
 The jupyter notebook for this project can be found [here.](https://github.com/Leon380/Phase-2-Project-group-2.3/blob/main/student.ipynb)
 
 ### Business Problem
