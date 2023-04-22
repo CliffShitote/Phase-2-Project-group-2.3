@@ -10,7 +10,12 @@
 
 ## Project Overview
 
-This project aims to use data science techniques to analyze house sales in North Western County
+This project aims to use data science techniques to analyze house sales in North Western County.
+
+
+The jupyter notebook for this project can be found [here.](https://github.com/Leon380/Phase-2-Project-group-2.3/blob/main/student.ipynb)
+
+You can find the notebook [here](https://github.com/WinnieKabuya/Phase-2-Project-group-2.3/blob/main/student.ipynb)
 
 ### Business Problem
 
@@ -21,6 +26,7 @@ The Real Estate Agency aims to provide advice to homeowners about how home renov
 We'll be using the King County House Sales dataset.
 
 The dataset contains:
+
 **id** - `unique identifier for a house`
 
 **date** - `date the house was sold`
@@ -50,7 +56,6 @@ The dataset contains:
 **sqft_basement** - `square footage of the basement`
 
 **yr_built** - `Year the house was built`
-
 
 **yr_renovated** - `Year the house was renovated`
 
