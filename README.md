@@ -26,6 +26,7 @@ The Real Estate Agency aims to provide advice to homeowners about how home renov
 We'll be using the King County House Sales dataset.
 
 The dataset contains:
+
 **id** - `unique identifier for a house`
 
 **date** - `date the house was sold`
@@ -55,7 +56,6 @@ The dataset contains:
 **sqft_basement** - `square footage of the basement`
 
 **yr_built** - `Year the house was built`
-
 
 **yr_renovated** - `Year the house was renovated`
 
