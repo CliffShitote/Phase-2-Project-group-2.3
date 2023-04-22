@@ -15,6 +15,8 @@ This project aims to use data science techniques to analyze house sales in North
 
 The jupyter notebook for this project can be found [here.](https://github.com/Leon380/Phase-2-Project-group-2.3/blob/main/student.ipynb)
 
+You can find the notebook [here](https://github.com/WinnieKabuya/Phase-2-Project-group-2.3/blob/main/student.ipynb)
+
 ### Business Problem
 
 The Real Estate Agency aims to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
